@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Matrimony Home</title>
+  <link rel="stylesheet" href="styles.css" />
+    </head>
+<body style="background-image: url('https://t4.ftcdn.net/jpg/03/04/65/61/360_F_304656150_sWiYeeZUGIE6utK4yMEXdZnoodIb4kym.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; opacity: 0.5px;">
+  <header>
+    <h1>Matrimony Site</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="profiles.html">View Profiles</a>
+    </nav>
+  </header>
+     <main>
+        <h2 style="text-align: center;color: green">Welcome to our Matrimony Platform</h2>
+    <p style="text-align: center;color: white">Find your perfect match with our secure and simple matchmaking process.</p>
+ <div>
+ <h1 id="formTitle" style="text-align: center;color: pink">LOGIN</h1>
+  <form id="userForm" action="register.php" method="POST">
+  <input type="text" name="username" id="username" placeholder="Username" required />
+  <input type="email" name="email" id="email" placeholder="Email" style="display: none;" />
+  <input type="password" name="password" id="password" placeholder="Password" required />
+  <button type="submit" id="submitBtn">Login</button>
+</form>
+
+    <p id="toggleText" style=
+"text-align: center">Don't have an account? <a href="#" id="toggleLink">Register here</a></p>
+    <p id="outputMessage"></p>
+  </div>
+</main>
+  <script src="script.js"></script>
+</body>
+</html>
